@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joana d'Arc: A Donzela de Orléans</title>
+    <meta name="description" content="Site didático sobre Joana d'Arc, a heroína francesa que mudou o curso da Guerra dos Cem Anos">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1>Joana d'Arc</h1>
+                    <span class="subtitle">A Donzela de Orléans</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#feitos">Feitos</a></li>
+                    <li><a href="#julgamento">Julgamento</a></li>
+                    <li><a href="#legado">Legado</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <img src="images/joana_darc_principal.jpg" alt="Joana d'Arc" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Joana d'Arc</h1>
+                <h2 class="hero-subtitle">A Donzela de Orléans e o Destino da França</h2>
+                <p class="hero-description">
+                    Uma camponesa que se tornou heroína nacional, mudando o curso da Guerra dos Cem Anos 
+                    através de sua fé inabalável e coragem extraordinária.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1412-1431</span>
+                        <span class="stat-label">Vida</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">19 anos</span>
+                        <span class="stat-label">Idade ao morrer</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1920</span>
+                        <span class="stat-label">Canonização</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('biografia')">Descobrir sua História</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biografia Section -->
+    <section id="biografia" class="section biografia-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Origens e Chamado Divino</h2>
+                <p class="section-subtitle">A vida de uma camponesa que mudou a história</p>
+            </div>
+            
+            <div class="content-grid">
+                <div class="text-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3>1412 - Nascimento</h3>
+                                <p>Nasceu em Domrémy, uma pequena vila na região de Lorena, filha de camponeses Jacques d'Arc e Isabelle Romée.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3>1425 - As Vozes</h3>
+                                <p>Aos 13 anos, começou a ter visões de São Miguel Arcanjo, Santa Catarina e Santa Margarida, que a instruíram a libertar a França.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3>1429 - Encontro com o Delfim</h3>
+                                <p>Conseguiu uma audiência com o Delfim Carlos em Chinon, convencendo-o de sua missão divina.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="images/joana_darc_perfil.jpg" alt="Retrato de Joana d'Arc" class="content-image">
+                    <div class="image-caption">
+                        Retrato de Joana d'Arc com bandeira e lírios, símbolos da França
+                    </div>
+                </div>
+            </div>
+
+            <div class="context-box">
+                <h3>Contexto Histórico: A Guerra dos Cem Anos</h3>
+                <p>
+                    A França estava em uma situação desesperadora durante a Guerra dos Cem Anos (1337-1453). 
+                    Grande parte do território francês estava sob controle inglês ou de seus aliados borgonheses. 
+                    O Delfim Carlos não havia sido coroado, minando sua legitimidade e a moral francesa. 
+                    Foi neste cenário de crise que Joana d'Arc emergiu como uma figura providencial.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feitos Section -->
+    <section id="feitos" class="section feitos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Feitos Militares e Vitórias</h2>
+                <p class="section-subtitle">Como uma camponesa mudou o curso de uma guerra</p>
+            </div>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">⚔️</div>
+                    <h3>Libertação de Orléans (1429)</h3>
+                    <p>
+                        O ponto de virada da Guerra dos Cem Anos. Joana liderou as tropas francesas, 
+                        quebrando o cerco inglês em apenas nove dias, um feito considerado milagroso.
+                    </p>
+                    <div class="achievement-impact">
+                        <span class="impact-label">Impacto:</span>
+                        <span class="impact-text">Reverteu o curso da guerra</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">👑</div>
+                    <h3>Coroação de Carlos VII (1429)</h3>
+                    <p>
+                        Liderou uma campanha audaciosa através de território inimigo para levar 
+                        o Delfim Carlos para ser coroado em Reims, legitimando seu reinado.
+                    </p>
+                    <div class="achievement-impact">
+                        <span class="impact-label">Impacto:</span>
+                        <span class="impact-text">Legitimou a monarquia francesa</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🛡️</div>
+                    <h3>Inspiração Moral</h3>
+                    <p>
+                        Sua presença no campo de batalha, carregando um estandarte em vez de uma espada, 
+                        era uma fonte inesgotável de inspiração para as tropas francesas.
+                    </p>
+                    <div class="achievement-impact">
+                        <span class="impact-label">Impacto:</span>
+                        <span class="impact-text">Elevou a moral francesa</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="battle-showcase">
+                <div class="battle-content">
+                    <h3>A Batalha de Orléans: O Milagre</h3>
+                    <p>
+                        A cidade de Orléans estava sob cerco inglês há meses quando Joana chegou. 
+                        Vestindo armadura branca e carregando seu estandarte sagrado, ela inspirou 
+                        os soldados franceses a uma vitória que parecia impossível. Em nove dias, 
+                        o cerco foi quebrado e a cidade libertada.
+                    </p>
+                    <div class="battle-stats">
+                        <div class="stat">
+                            <span class="stat-number">9</span>
+                            <span class="stat-label">Dias para libertar</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Meses de cerco</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1429</span>
+                            <span class="stat-label">Ano da vitória</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="battle-image">
+                    <img src="images/joana_darc_batalha.jpg" alt="Joana d'Arc em batalha" class="content-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Julgamento Section -->
+    <section id="julgamento" class="section julgamento-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Captura, Julgamento e Martírio</h2>
+                <p class="section-subtitle">O trágico fim de uma heroína</p>
+            </div>
+
+            <div class="trial-timeline">
+                <div class="trial-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Captura (1430)</h3>
+                        <p>
+                            Em maio de 1430, durante um cerco a Compiègne, Joana foi capturada 
+                            por soldados borgonheses, aliados dos ingleses, que a venderam por uma soma considerável.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="trial-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Julgamento (1431)</h3>
+                        <p>
+                            Levada para Ruão, foi submetida a um julgamento político por um tribunal 
+                            eclesiástico controlado pelos ingleses, acusada de heresia, feitiçaria e uso de vestes masculinas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="trial-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Execução (30 de maio de 1431)</h3>
+                        <p>
+                            Aos 19 anos, foi queimada viva na fogueira na Praça do Velho Mercado, em Ruão. 
+                            Suas cinzas foram jogadas no rio Sena para evitar que se tornassem relíquias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trial-details">
+                <div class="trial-image">
+                    <img src="images/joana_darc_julgamento.jpg" alt="Julgamento de Joana d'Arc" class="content-image">
+                </div>
+                <div class="trial-text">
+                    <h3>Um Julgamento Injusto</h3>
+                    <p>
+                        O julgamento de Joana d'Arc foi claramente político, orquestrado pelos ingleses 
+                        para desacreditar tanto ela quanto o rei Carlos VII, que havia sido coroado por sua influência. 
+                        O tribunal foi presidido pelo bispo Pierre Cauchon, um clérigo pró-inglês.
+                    </p>
+                    <p>
+                        Durante meses, ela foi interrogada exaustivamente, mas manteve sua fé e a veracidade 
+                        de suas visões, recusando-se a negar seu chamado divino. Apesar de sua defesa eloquente 
+                        e da falta de provas concretas de heresia, foi condenada.
+                    </p>
+                    <div class="quote">
+                        <blockquote>
+                            "Minhas vozes vieram de Deus; tudo o que fiz foi por ordem de Deus."
+                        </blockquote>
+                        <cite>- Joana d'Arc durante o julgamento</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legado Section -->
+    <section id="legado" class="section legado-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Legado e Canonização</h2>
+                <p class="section-subtitle">De heroína nacional a santa da Igreja Católica</p>
+            </div>
+
+            <div class="legacy-grid">
+                <div class="legacy-card">
+                    <div class="legacy-year">1456</div>
+                    <h3>Reabilitação</h3>
+                    <p>
+                        Um novo julgamento, ordenado pelo Papa Calisto III, revisou as acusações 
+                        e declarou Joana inocente, anulando sua condenação por heresia.
+                    </p>
+                </div>
+
+                <div class="legacy-card">
+                    <div class="legacy-year">Séculos</div>
+                    <h3>Heroína Nacional</h3>
+                    <p>
+                        Tornou-se um símbolo poderoso de patriotismo e unidade para a França, 
+                        inspirando movimentos de resistência em tempos de crise.
+                    </p>
+                </div>
+
+                <div class="legacy-card">
+                    <div class="legacy-year">1920</div>
+                    <h3>Canonização</h3>
+                    <p>
+                        O Papa Bento XV a canonizou como Santa Joana d'Arc, reconhecendo 
+                        sua fé inabalável e seu martírio em nome de sua nação.
+                    </p>
+                </div>
+            </div>
+
+            <div class="curiosities">
+                <h3>Curiosidades sobre Joana d'Arc</h3>
+                <div class="curiosity-grid">
+                    <div class="curiosity-item">
+                        <div class="curiosity-icon">🗡️</div>
+                        <h4>Nunca empunhou uma espada</h4>
+                        <p>Preferia carregar um estandarte com imagens de Jesus e Maria</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <div class="curiosity-icon">📚</div>
+                        <h4>Era analfabeta</h4>
+                        <p>Apesar disso, conseguiu convencer generais e um rei a seguir suas instruções</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <div class="curiosity-icon">👥</div>
+                        <h4>Liderança inspiradora</h4>
+                        <p>Sua função era mais de guia espiritual e moral do que guerreira tradicional</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <div class="curiosity-icon">🎭</div>
+                        <h4>Ícone cultural</h4>
+                        <p>Inspirou inúmeras obras de arte, literatura, teatro, cinema e música</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-message">
+                <div class="message-content">
+                    <h3>Um Legado Eterno</h3>
+                    <p>
+                        Joana d'Arc nos lembra que a verdadeira força não reside apenas no poder militar, 
+                        mas na convicção, na inspiração e na crença em um propósito maior. Sua história 
+                        é um convite à reflexão sobre liderança, fé, justiça e o poder transformador de um indivíduo.
+                    </p>
+                </div>
+                <div class="message-image">
+                    <img src="images/castelo_franca.jpg" alt="Castelo francês medieval" class="content-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Joana d'Arc</h3>
+                    <p>Site didático sobre a vida e o legado da Donzela de Orléans</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#biografia">Biografia</a></li>
+                        <li><a href="#feitos">Feitos</a></li>
+                        <li><a href="#julgamento">Julgamento</a></li>
+                        <li><a href="#legado">Legado</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#" onclick="window.open('https://pt.wikipedia.org/wiki/Joana_d%27Arc', '_blank')">Wikipédia</a></li>
+                        <li><a href="#" onclick="window.open('https://www.vatican.va/content/benedict-xvi/pt/audiences/2011/documents/hf_ben-xvi_aud_20110126.html', '_blank')">Vaticano</a></li>
+                        <li><a href="#" onclick="window.open('https://brasilescola.uol.com.br/historia/joana-d-arc.htm', '_blank')">Brasil Escola</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - Site Didático sobre Joana d'Arc - Desenvolvido para fins educacionais</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections and cards
+        document.querySelectorAll('.section, .achievement-card, .legacy-card, .curiosity-item').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
+
